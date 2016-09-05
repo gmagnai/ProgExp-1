@@ -3,8 +3,14 @@
 using namespace std;
 
 double sum(double x, double y){
-x=x+y;
-return x;
+    return x+y;
+}
+
+double minux(double x, double y) {
+    if(a > b) {
+        return a - b;
+    }
+    else return b - a;
 }
 
 int main() {
