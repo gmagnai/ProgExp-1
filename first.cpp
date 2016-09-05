@@ -2,6 +2,11 @@
 
 using namespace std;
 
+double sum(double x, double y){
+x=x+y;
+return x;
+}
+
 int main() {
     int option;
     cout<<"\t1. Хоёр тооны ялгавар олох";
