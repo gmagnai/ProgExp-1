@@ -33,17 +33,17 @@ int main() {
 		cout<<endl;
 		cout<<"Сонголт: ";
 		cin>>option;
-		
-		if(option != 0) {
+
+		double answer;
+		double a,b;
+
+		if(option != 0) {			
 			cout<<"A: ";
 		    cin>>a;
 		    cout<<"B: ";
 		    cin>>b;
 		    cout<<endl<<endl;
 		}
-
-		double answer;
-		double a,b;
 
 		switch(option) {
 		    case 1:			   
