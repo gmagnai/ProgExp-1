@@ -34,34 +34,27 @@ int main() {
 		cout<<"Сонголт: ";
 		cin>>option;
 		
+		if(option != 0) {
+			cout<<"A: ";
+		    cin>>a;
+		    cout<<"B: ";
+		    cin>>b;
+		    cout<<endl<<endl;
+		}
+
 		double answer;
 		double a,b;
 
 		switch(option) {
-		    case 1:
-			    cout<<"A: ";
-			    cin>>a;
-			    cout<<"B: ";
-			    cin>>b;
-			    cout<<endl<<endl;
+		    case 1:			   
 		        answer = minux(a,b);
 		        cout<<"Хоёр тооны ялгабар нь: ";        
 		        break;
-		    case 2:
-			    cout<<"A: ";
-			    cin>>a;
-			    cout<<"B: ";
-			    cin>>b;
-			    cout<<endl<<endl;
+		    case 2:			    
 		        answer = sum(a,b);
 		        cout<<"Хоёр тооны нийлбэр нь: ";
 		        break;
-		    case 3:
-			    cout<<"A: ";
-			    cin>>a;
-			    cout<<"B: ";
-			    cin>>b;
-			    cout<<endl<<endl;
+		    case 3:			   
 		        answer = XIEX(a,b);
 		        cout<<"Хоёр тооны хамгийн их ерөнхий хуваагч нь: ";
 		        break;
