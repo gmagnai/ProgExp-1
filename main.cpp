@@ -1,5 +1,10 @@
 #include <iostream>
-#include "functions.h"
+#include "files/functions.h"
+
+/*
+ * Created: 2016-09-06 09:00
+ * Tegshee, Tulgaa, Magnai
+ */
 
 using namespace std;
 
@@ -29,7 +34,7 @@ int main() {
 		switch(option) {
 		    case 1:			   
 		        answer = minux(a,b);
-		        cout<<"Хоёр тооны ялгабар нь: ";        
+		        cout<<"Хоёр тооны ялгавар нь: ";        
 		        break;
 		    case 2:			    
 		        answer = sum(a,b);
